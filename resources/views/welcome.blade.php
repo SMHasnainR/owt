@@ -299,7 +299,7 @@
 
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    {{-- <section id="testimonials" class="testimonials">
         <div class="container" data-aos="zoom-in">
 
             <header class="section-header">
@@ -353,7 +353,8 @@
             </div>
 
         </div>
-    </section><!-- End Testimonials Section -->
+    </section> --}}
+    <!-- End Testimonials Section -->
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">

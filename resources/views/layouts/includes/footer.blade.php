@@ -31,13 +31,13 @@
                         </div>
 
                         <div class="col-sm-4">
-                            <div class="footer-newsletter">
+                            {{-- <div class="footer-newsletter">
                                 <h4>Our Newsletter</h4>
                                 <p> Subscribe to our newsletter to be in touch with us</p>
                                 <form action="" method="post">
                                     <input type="email" name="email"><input type="submit" value="Subscribe">
                                 </form>
-                            </div>
+                            </div> --}}
 
                             
                             <div class="footer-links">

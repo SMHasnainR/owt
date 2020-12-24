@@ -33,7 +33,7 @@
         <div class='row'>
             <embed src="/assets/files/profile.pdf" type="application/pdf" width="100%" height="400px">
         </div>
-
+{{-- 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12">
                 <ul id="portfolio-flters">
@@ -173,7 +173,7 @@
                 </div>
             </div>
 
-        </div>
+        </div> --}}
 
     </div>
 </section><!-- End Portfolio Section -->
