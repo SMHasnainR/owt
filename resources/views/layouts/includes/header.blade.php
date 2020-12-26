@@ -22,7 +22,8 @@
           {{-- <li class="{{ request()->is('about') ? 'active' : '' }}"><a href="#about">About Us</a></li> --}}
           <li class="{{ request()->is('services') ? 'active' : '' }}"><a href="/services">Services</a></li>
           <li class="{{ request()->is('portfolio') ? 'active' : '' }}"><a href="/portfolio">Portfolio</a></li>
-          <li>  </li>
+          {{-- <li class="{{ request()->is('portfolio') ? 'active' : '' }}"><a href="/portfolio">Portfolio</a></li>     --}}
+          
           <!-- <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -42,6 +43,8 @@
           </li> -->
           {{-- {{ echo 'Hasnian' }} --}}
           <li class="{{ request()->is('contact-us') ? 'active' : '' }}"><a href="{{ route('contact') }}" >Contact Us</a></li>
+          <li class="shop-button" ><a href=""> store </a></li>
+          
         </ul>
       </nav><!-- .main-nav-->
 
