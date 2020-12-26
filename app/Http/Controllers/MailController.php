@@ -34,7 +34,10 @@ class MailController extends Controller
 
 
         Mail::to("hasnainshoaib45@gmail.com")->send(new ContactMail($details));
+        // Mail::from("hasnainshoaib45@gmail.com");ha 
+        
         return redirect('/contact-us');
+
         // echo 'Message Send';
     }
 }

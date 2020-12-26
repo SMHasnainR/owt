@@ -57,6 +57,7 @@
                             data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                         <div class="validate"></div>
                     </div>
+                    {{-- <img src="" alt=""> --}}
                     <div class="form-group">
                         <textarea class="form-control" name="message" rows="5" data-rule="required"
                             data-msg="Please write something for us" placeholder="How can we help you?"></textarea>

@@ -6,7 +6,7 @@
                 <div class="col-lg-12">
                     <div class="row">
 
-                        <div class="col-sm-4">
+                        <div class="col-sm-6">
                             <div class="footer-info">
                                 <h3>One Window Technologies</h3>
                                 <p>ONE Window Technologies, an adaptable and complete IT solutions provider and digital media agency,
@@ -16,7 +16,7 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-4">
+                        <div class="col-sm-2">
                             <div class="footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
@@ -54,9 +54,9 @@
 
                             <div class="social-links">
                                 <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/OneWindowTechnologies" class="facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/one_window_technologies/" class="instagram"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/company/one-window-technologies-pvt-ltd" class="linkedin"><i class="fa fa-linkedin"></i></a>
                             </div>
 
 

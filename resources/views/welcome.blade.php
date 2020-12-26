@@ -7,7 +7,7 @@
         <div class="row justify-content-center align-self-center" data-aos="fade-up">
             <div class="col-md-6 intro-info order-md-first order-last" data-aos="zoom-in" data-aos-delay="100">
                 <h2>We help <span> add value </span>through technology, custom built for your needs.</h2>
-
+                
                 <div>
                     <a href="#about" class="btn-get-started scrollto">Get Started</a>
                 </div>
@@ -251,7 +251,7 @@
             <div class="modal-content">
                 
                 <div class="modal-header">
-                    <h4 class="modal-title" id="exampleModalLabel">Contact Form</h4>
+                    <h4 class="modal-title" id="exampleModalLabel">Quotation Form</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -261,10 +261,10 @@
                 @csrf
                     <div class="modal-body">
                         <div class="container">
-                            <div align="center">
-                                <h3>Tell us about your project</h3>
+                            <div align="center" class='my-3'>
+                                <h3>Tell us about your project !</h3>
                             </div>
-                            <div class='row mt-3'>
+                            <div class='row my-3'>
                                 <div class="col-sm-6">
                                     <input class='form-control' placeholder="First Name" name="firstName">
                                 </div>
@@ -272,7 +272,7 @@
                                     <input class='form-control' placeholder='Last Names' name="lastName">
                                 </div>
                             </div>
-                            <div class="row mt-3">
+                            <div class="row my-3">
                                 <div class='col-sm-6'>
                                     <input class='form-control' placeholder='Email Address' name='email'>
                                 </div>
@@ -280,7 +280,7 @@
                                     <input class='form-control' placeholder='Phone no' name='phone'>
                                 </div>
                             </div>
-                            <div class="row mt-3">
+                            <div class="row my-3">
                                 <div class='col-sm-12'>
                                     <input class='form-control' placeholder='How can we help?' name="message">
                                 </div>
@@ -366,13 +366,13 @@
 
             <div class="owl-carousel clients-carousel">
                 <img src="assets/img/clients/client-1.png" alt="">
-                <img src="assets/img/clients/client-2.png" alt="">
+                {{-- <img src="assets/img/clients/client-2.png" alt=""> --}}
                 <img src="assets/img/clients/client-3.png" alt="">
                 <img src="assets/img/clients/client-4.png" alt="">
                 <img src="assets/img/clients/client-5.png" alt="">
                 <img src="assets/img/clients/client-6.png" alt="">
-                <img src="assets/img/clients/client-7.png" alt="">
-                <img src="assets/img/clients/client-8.png" alt="">
+                {{-- <img src="assets/img/clients/client-7.png" alt=""> --}}
+                {{-- <img src="assets/img/clients/client-8.png" alt=""> --}}
             </div>
 
         </div>

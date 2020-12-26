@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 22px;
   margin: 0;
   padding: 0;
-  padding-top:20px;
+  /* padding-top:20px; */
   line-height: 1;
   font-weight: 400;
   letter-spacing: 2px;
@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-hero .intro-info h2 {
   color: #413e66;
   margin-bottom: 40px;
-  font-size: 48px;
+  font-size: 46px;
   font-weight: 700;
 }
 
@@ -478,6 +478,13 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 767px) {
   .back-hero .intro-info h2 {
     font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .back-hero .intro-info h2 {
+    font-size: 36px;
     margin-bottom: 30px;
   }
 }
@@ -1478,12 +1485,14 @@ section {
 
 #footer .footer-top .footer-links ul {
   list-style: none;
+  
   padding: 0;
   margin: 0;
 }
 
 #footer .footer-top .footer-links ul li {
   padding: 8px 0;
+  /* display: inline; */
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -1662,8 +1671,9 @@ section {
 
 }
 
-.modal-content{
-  background-color: ;
+.modal-content *{
+  font: sans-serif;
+  font-style: italic;
 }
 
 .modal-title{
@@ -1683,4 +1693,6 @@ section {
 
 .modal-body{
   background-color: #F5F8FD;
+
+
 }

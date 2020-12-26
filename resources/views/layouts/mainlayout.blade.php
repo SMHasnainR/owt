@@ -16,10 +16,10 @@
     <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent">
         <div class="container d-flex justify-content-end">
             <div class="social-links">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/OneWindowTechnologies" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/one-window-technologies-pvt-ltd" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/one_window_technologies/" class="instagram"><i class="fa fa-instagram"></i></a>
             </div>
         </div>
     </div>

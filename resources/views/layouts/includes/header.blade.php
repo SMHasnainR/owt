@@ -6,7 +6,7 @@
     <div class="container d-flex align-items-center">
 
       <h1 class="logo mr-auto row">
-        <div class="col-sm-3 p-0">
+        <div class="col-sm-3 p-0 d-none d-sm-inline">
           <img src="{{asset('assets/img/owt-logo-real.png')}}" class='w-100' alt="">
         </div>
         <div class="col-sm-9 d-flex align-items-center">
