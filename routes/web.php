@@ -34,15 +34,17 @@ Route::get('/contact-us', function () {
     return view('contact');
 })->name('contact');
 
-Route::get('/clients', function () {
-    return view('welcome');
-});
 Route::get('/products', function () {
     return view('welcome');
 });
 Route::get('/career', function () {
     return view('welcome');
 });
+
+Route::get('/shop-it', function () {
+    return view('s_home');
+})->name('shop');
+
 
 // Route::get('/send-quote-mail',[MailController::class,'sendQuoteMail']);
 Route::post('/send-quote-mail',[MailController::class,'sendQuoteMail']);

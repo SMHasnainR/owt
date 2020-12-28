@@ -43,7 +43,7 @@
           </li> -->
           {{-- {{ echo 'Hasnian' }} --}}
           <li class="{{ request()->is('contact-us') ? 'active' : '' }}"><a href="{{ route('contact') }}" >Contact Us</a></li>
-          <li class="shop-button" ><a href=""> store </a></li>
+          <li class="shop-button"  ><a href="{{ route('shop') }}"> store </a></li>
           
         </ul>
       </nav><!-- .main-nav-->
