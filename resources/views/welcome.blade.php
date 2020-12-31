@@ -94,7 +94,6 @@
             </header>
 
             <div class="row">
-
                 <div class="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100">
                     <div class="box">
                         <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
@@ -367,7 +366,7 @@
             <div class="owl-carousel clients-carousel">
                 <img src="assets/img/clients/client-1.png" alt="">
                 {{-- <img src="assets/img/clients/client-2.png" alt=""> --}}
-                <img src="assets/img/clients/client-3.png" alt="">
+                <img src="assets/img/clients/client-3.png" class='' alt="">
                 <img src="assets/img/clients/client-4.png" alt="">
                 <img src="assets/img/clients/client-5.png" alt="">
                 <img src="assets/img/clients/client-6.png" alt="">

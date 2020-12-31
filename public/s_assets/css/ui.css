@@ -429,7 +429,7 @@ p:last-child {
 
 .brand-wrap .logo, .navbar-brand .logo {
   margin-right: 7px;
-  max-height: 42px;
+  max-height: 80px;
   display: inline-block;
 }
 
@@ -473,32 +473,297 @@ p:last-child {
 /* desktop only */
 /* desktop only .end */
 /* ================ SECTION-FOOTER ==================  */
-.section-footer ul li {
-  margin-bottom: 5px;
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  padding: 0 0 30px 0;
+  font-size: 14px;
+  background: #fff;
 }
-.section-footer ul a {
-  color: inherit;
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #f5f8fd;
 }
-.section-footer ul a:hover {
-  color: #3167eb;
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
 }
-.section-footer .logo-footer {
-  height: 40px;
+
+#footer .footer-top .footer-info h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  color: #413e66;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
-.section-footer .title {
+
+#footer .footer-top .footer-info p {
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #535074;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #1bb1dc;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #0a98c0;
+  color: #fff;
+}
+
+@media (max-width: 574px) {
+  #footer .footer-top .social-links a {
+    margin-bottom: 25px;
+  }
+}
+
+#footer .footer-top h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #413e66;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 8px 0;
+  /* display: inline; */
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #696592;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #1bb1dc;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+#footer .footer-top .footer-newsletter {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+  border: 1px solid #d9dde6;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+  background: #1bb1dc;
+  border: 1px solid #1bb1dc;
+  width: 35%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+  background: #0a98c0;
+}
+
+#footer .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#footer .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
   font-weight: 600;
-  margin-bottom: 16px;
-  color: #212529;
 }
 
-.footer-bottom {
-  padding-top: 20px;
-  padding-bottom: 20px;
+#footer .php-email-form .error-message br + br {
+  margin-top: 25px;
 }
 
-.footer-copyright {
-  padding-top: 20px;
-  padding-bottom: 20px;
+#footer .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#footer .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+#footer .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+#footer .php-email-form input, #footer .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid #dce1ec;
+  font-size: 14px;
+}
+
+#footer .php-email-form input::focus, #footer .php-email-form textarea::focus {
+  background-color: #1bb1dc;
+}
+
+#footer .php-email-form input {
+  padding: 20px 15px;
+}
+
+#footer .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+#footer .php-email-form button[type="submit"] {
+  background: #1bb1dc;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#footer .php-email-form button[type="submit"]:hover {
+  background: #0a98c0;
+  cursor: pointer;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+  color: #535074;
+  font-size: 15px;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 4px;
+  color: #8582a8;
+}
+
+#footer .credits a {
+  color: #1bb1dc;
+}
+
+#footer .credits a:hover {
+  color: #0a98c0;
+}
+
+
+.modal-header{
+  background-color: #E3F2FB;
+  /* border-color: #000; */
+
+}
+
+.modal-content *{
+  font: sans-serif;
+  font-style: italic;
+}
+
+.modal-title{
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center !important;
+}
+
+.btn-dark2{
+  background-color:#2D2B46;
+  color: white;
+}
+
+.modal-footer{
+  background-color: #E3F2FB;
+}
+
+.modal-body{
+  background-color: #F5F8FD;
+
+
 }
 
 /* ================== COMPONENTS =================== */
@@ -1416,3 +1681,8 @@ a[class*=card]:hover .title {
 }
 
 /*# sourceMappingURL=ui.css.map */
+
+#authDiv li{
+  list-style-type: none;
+  /* color: red; */
+}

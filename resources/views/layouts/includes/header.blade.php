@@ -41,7 +41,7 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li> -->
-          {{-- {{ echo 'Hasnian' }} --}}
+          
           <li class="{{ request()->is('contact-us') ? 'active' : '' }}"><a href="{{ route('contact') }}" >Contact Us</a></li>
           <li class="shop-button"  ><a href="{{ route('shop') }}"> store </a></li>
           

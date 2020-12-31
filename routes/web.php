@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MailController;
 
@@ -42,7 +43,7 @@ Route::get('/career', function () {
 });
 
 Route::get('/shop-it', function () {
-    return view('s_home');
+    return view('shop.s_home');
 })->name('shop');
 
 
@@ -51,8 +52,6 @@ Route::post('/send-quote-mail',[MailController::class,'sendQuoteMail']);
 Route::post('/send-contact-mail',[MailController::class,'sendContactMail'])->name('contactMail');
 
 
+Auth::routes();
 
-
-
-
-
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
